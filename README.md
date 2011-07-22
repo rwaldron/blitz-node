@@ -6,7 +6,7 @@
 * Rush your API and website to scale it out
 * Condition your site around the clock
 
-### Getting started
+## Getting started
 
 Login to [blitz.io](http://blitz.io) and in the blitz bar type:
     
@@ -14,7 +14,7 @@ Login to [blitz.io](http://blitz.io) and in the blitz bar type:
 
 Now
 
-    gem install blitz
+    npm install blitz (available soon)
 
 Then
 
