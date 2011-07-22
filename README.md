@@ -14,14 +14,14 @@ Login to [blitz.io](http://blitz.io) and in the blitz bar type:
 
 Now
 
-    npm install blitz (available soon)
+    npm install blitz
 
 Then
 
 **Sprint**
 
 ```javascript
-var Blitz = require('../blitz-node/lib/blitz.js');
+var Blitz = require('blitz');
 
 console.log('Starting Sprint...');
 Blitz('<email>','<api-key>').sprint({
@@ -41,7 +41,7 @@ Blitz('<email>','<api-key>').sprint({
 **Rush**
 
 ```javascript
-var Blitz = require('../blitz-node/lib/blitz.js');
+var Blitz = require('blitz');
 
 console.log('Starting Rush...');
 Blitz('<email>','<api-key>').rush({

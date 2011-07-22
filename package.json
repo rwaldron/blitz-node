@@ -2,7 +2,7 @@
     "author": "Guilherme Hermeto <gui.hermeto@gmail.com>",
     "name": "blitz",
     "description": "Blitz node.js client API",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "homepage": "http://blitz.io",
     "repository": {
         "type": "git",
@@ -10,11 +10,13 @@
     },
     "main": "./lib/blitz.js",
     "scripts": {
-        "test": "jasmine-node"
+        "test": "jasmine-node spec"
     },
     "engines": {
-        "node": "~v0.4.8"
+        "node": ">=v0.4.8"
     },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "jasmine-node": "~1.0.6"
+    }
 }
