@@ -1,6 +1,6 @@
 ### ![blitz.io](http://blitz.io/images/logo2.png)
 
-Make load and performance a fun sport.
+### Make load and performance a fun sport.
 
 * Run a sprint from around the world
 * Rush your API and website to scale it out
@@ -18,7 +18,7 @@ Now
 
 Then
 
-**Sprint
+**Sprint**
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
@@ -38,7 +38,7 @@ Blitz('<email>','<api-key>').sprint({
     });
 ```
 
-**Rush
+**Rush**
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
