@@ -1,4 +1,4 @@
-## ![blitz.io](http://blitz.io/images/logo2.png)
+### ![blitz.io](http://blitz.io/images/logo2.png)
 
 Make load and performance a fun sport.
 
@@ -6,7 +6,7 @@ Make load and performance a fun sport.
 * Rush your API and website to scale it out
 * Condition your site around the clock
 
-## Getting started
+### Getting started
 
 Login to [blitz.io](http://blitz.io) and in the blitz bar type:
     
@@ -18,7 +18,7 @@ Now
 
 Then
 
-### Sprint
+**Sprint
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
@@ -38,7 +38,7 @@ Blitz('<email>','<api-key>').sprint({
     });
 ```
 
-### Rush
+**Rush
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
