@@ -1,6 +1,24 @@
-# Use
+## ![blitz.io](http://blitz.io/images/logo2.png)
 
-## Sprint
+Make load and performance a fun sport.
+
+* Run a sprint from around the world
+* Rush your API and website to scale it out
+* Condition your site around the clock
+
+## Getting started
+
+Login to [blitz.io](http://blitz.io) and in the blitz bar type:
+    
+    --api-key
+
+Now
+
+    gem install blitz
+
+Then
+
+### Sprint
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
@@ -20,7 +38,7 @@ Blitz('<email>','<api-key>').sprint({
     });
 ```
 
-## Rush
+### Rush
 
 ```javascript
 var Blitz = require('../blitz-node/lib/blitz.js');
