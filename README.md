@@ -6,8 +6,8 @@
 var Blitz = require('../blitz-node/lib/blitz.js');
 
 console.log('Starting Sprint...');
-Blitz('gui.hermeto@gmail.com','dalfgxdu-rhakfb1a-aae3se7y-5eqw4gci').sprint({
-    url: 'http://ghermeto-sinatratest.heroku.com',
+Blitz('<email>','<api-key>').sprint({
+    url: 'http://your.cool.ap',
     region: 'california'}, function (err, data) {
         if(err != null) {
             console.log(err);
@@ -26,8 +26,8 @@ Blitz('gui.hermeto@gmail.com','dalfgxdu-rhakfb1a-aae3se7y-5eqw4gci').sprint({
 var Blitz = require('../blitz-node/lib/blitz.js');
 
 console.log('Starting Rush...');
-Blitz('gui.hermeto@gmail.com','dalfgxdu-rhakfb1a-aae3se7y-5eqw4gci').rush({
-    url: 'http://ghermeto-sinatratest.heroku.com',
+Blitz('<email>','<api-key>').rush({
+    url: 'http://your.cool.ap',
     region: 'california',
     pattern: { intervals: [{start: 1, end: 10, duration: 30}]}
 }, function (err, data) {
